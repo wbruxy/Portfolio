@@ -1,650 +1,384 @@
-<!-- /*
-* Template Name: Archiark
-* Template Author: Untree.co
-* Tempalte URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/ -->
-<!doctype html>
-<html lang="en">
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<meta name="author" content="Untree.co">
-	<link rel="shortcut icon" href="favicon.png">
-
-	<meta name="description" content="" />
-	<meta name="keywords" content="bootstrap, bootstrap5" />
-
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" href="fonts/icomoon/style.css">
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<link rel="stylesheet" href="css/tiny-slider.css">
-	<link rel="stylesheet" href="css/aos.css">
-	<link rel="stylesheet" href="css/glightbox.min.css">
-	<link rel="stylesheet" href="css/style.css">
-
-	<title>Archiark &mdash; Free Bootstrap 5 Website Template by Untree.co</title>
-</head>
-<body>
-
-	<div class="site-mobile-menu site-navbar-target">
-		<div class="site-mobile-menu-header">
-			<div class="site-mobile-menu-close">
-				<span class="icofont-close js-menu-toggle"></span>
-			</div>
-		</div>
-		<div class="site-mobile-menu-body"></div>
-	</div>
-
-	<nav class="site-nav">
-		<div class="container">
-			<div class="site-navigation">
-				<a href="index.html" class="logo m-0 float-start">Archiark<span class="text-primary">.</span> </a>
-
-				<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-start">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li class="has-children">
-						<a href="projects.html">Projects</a>
-						<ul class="dropdown">
-							<li><a href="#">Commercial Building</a></li>
-							<li><a href="#">Cultural Lifestyle</a></li>
-							<li class="has-children">
-								<a href="#">Dropdown</a>
-								<ul class="dropdown">
-									<li><a href="#">Sub Menu One</a></li>
-									<li><a href="#">Sub Menu Two</a></li>
-									<li><a href="#">Sub Menu Three</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
-				</ul>
-
-
-
-				<a href="#" class="burger ml-auto float-end site-menu-toggle light js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
-					<span></span>
-				</a>
-				<ul class="site-menu float-end d-none d-md-block">
-					<li><a href="#" class="d-flex align-items-center text-white h2 fw-bold"><span class="icon-phone me-2"></span> <span>+ 2 292 4392 327</span></a></li>
-				</ul>
-
-			</div>
-		</div>
-	</nav>
-
-	<div class="hero-2 overlay" style="background-image: url('images/img_2.jpg');">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-5 mx-auto">
-					<h1 class="mb-5"><span>We love</span> <span class="d-block">architecture</span> <span class="d-block">& interior design</span></h1>
-
-					<div class="play-vid">
-						<a href="https://www.youtube.com/watch?v=mwtbEGNABWU" class="play glightbox">
-							<span class="icon-play"></span>
-						</a>
-					</div>
-
-					<div class="intro-desc">
-						<div class="line"></div>
-						<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="section sec-1">
-		<div class="container">
-			<div class="row g-0">
-				<div class="col-lg-3">
-					<h2 class="heading">We create architectural designs</h2>
-					<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.</p>
-
-					<p><a href="#" class="more-2">Learn more <span class="icon-arrow_forward"></span></a></p>
-				</div>
-				<div class="col-lg-7 ms-auto">
-					<img src="images/img_8.jpg" alt="Image" class="img-fluid img-r">
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="section sec-2">
-		<div class="container">
-			<div class="row g-0">
-				<div class="col-lg-6 mb-4 mb-lg-0">
-					<img src="images/img_4.jpg" alt="IMage" class="img-fluid">
-				</div>
-				<div class="col-lg-3 ms-auto">
-					<h2 class="heading">Modern Architecture</h2>
-					<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.</p>
-					<p><a href="#" class="more-2">Learn more <span class="icon-arrow_forward"></span></a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="sec-3 section bg-light">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3">
-					<h2 class="heading">Services</h2>
-					<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.</p>
-				</div>
-
-				<div class="col-lg-6 ms-auto">
-					<div class="accordion accordion-flush accordion-1" id="accordionFlushExample">
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingOne">
-								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-									Interior Design
-								</button>
-							</h2>
-							<div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-								<div class="accordion-body">
-									<div class="row justify-content-between">
-										<div class="col-md-4">
-											<img src="images/img_7.jpg" alt="Image" class="img-fluid">
-										</div>
-										<div class="col-md-8">
-											<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio.</p>
-											<a href="#" class="more-2">Learn more <span class="icon-arrow_forward"></span></a>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingTwo">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-									Landscape Design
-								</button>
-							</h2>
-							<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-								<div class="accordion-body">
-									<div class="row justify-content-between">
-										<div class="col-md-4">
-											<img src="images/img_2.jpg" alt="Image" class="img-fluid">
-										</div>
-										<div class="col-md-8">
-											<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio.</p>
-											<a href="#" class="more-2">Learn more <span class="icon-arrow_forward"></span></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingThree">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-									Engineering Plan
-								</button>
-							</h2>
-							<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-								<div class="accordion-body">
-									<div class="row justify-content-between">
-										<div class="col-md-4">
-											<img src="images/img_3.jpg" alt="Image" class="img-fluid">
-										</div>
-										<div class="col-md-8">
-											<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio.</p>
-											<a href="#" class="more-2">Learn more <span class="icon-arrow_forward"></span></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingFour">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-									Architecture Design
-								</button>
-							</h2>
-							<div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-								<div class="accordion-body">
-									<div class="row justify-content-between">
-										<div class="col-md-4">
-											<img src="images/img_4.jpg" alt="Image" class="img-fluid">
-										</div>
-										<div class="col-md-8">
-											<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio.</p>
-											<a href="#" class="more-2">Learn more <span class="icon-arrow_forward"></span></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="section sec-5">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-lg-6">
-					<h2 class="heading">Projects</h2>
-				</div>
-				<div class="col-lg-4">
-					<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque.</p>
-				</div>
-			</div>
-
-			<div class="row g-4">
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="single-portfolio">
-						<a href="project-single.html">
-							<img src="images/img_8.jpg" alt="Image" class="img-fluid">
-							<div class="contents">
-								<h3>Project One</h3>
-								<div class="cat">Construction</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="single-portfolio">
-						<a href="project-single.html">
-							<img src="images/img_2.jpg" alt="Image" class="img-fluid">
-							<div class="contents">
-								<h3>Project Two</h3>
-								<div class="cat">Construction</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="single-portfolio">
-						<a href="project-single.html">
-							<img src="images/img_3.jpg" alt="Image" class="img-fluid">
-							<div class="contents">
-								<h3>Project One</h3>
-								<div class="cat">Construction</div>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="single-portfolio">
-						<a href="project-single.html">
-							<img src="images/img_4.jpg" alt="Image" class="img-fluid">
-							<div class="contents">
-								<h3>Project One</h3>
-								<div class="cat">Construction</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="single-portfolio">
-						<a href="project-single.html">
-							<img src="images/img_5.jpg" alt="Image" class="img-fluid">
-							<div class="contents">
-								<h3>Project Two</h3>
-								<div class="cat">Construction</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="single-portfolio">
-						<a href="project-single.html">
-							<img src="images/img_6.jpg" alt="Image" class="img-fluid">
-							<div class="contents">
-								<h3>Project One</h3>
-								<div class="cat">Construction</div>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class="col-md-12 text-center mt-5">
-					<p><a href="#" class="btn btn-primary me-4">See all projects</a></p>
-				</div>
-
-			</div>
-		</div>
-	</div>
-
-
-
-	<div class="sec-4 section bg-light">
-
-		<div class="text-center mb-5">
-			<h2 class="heading mb-5 text-center">Testimonial</h2>
-		</div>
-		<div class="testimonial-slide-center-wrap" data-aos="fade-up" data-aos-delay="100">
-
-			<div id="testimonial-nav">
-				<span class="prev" data-controls="prev"><span class="icon-chevron-left"></span></span>
-
-				<span class="next" data-controls="next"><span class="icon-chevron-right"></span></span>
-			</div>
-
-			<div class="testimonial-slide-center testimonial-center" id="testimonial-center">
-
-				<div class="item">
-					<div class="testimonial-item">
-						<div  class="testimonial-item-inner">
-							<div class="testimonial-author mb-5">
-								<img src="images/person_2.jpg" alt="Image" class="img-fluid">
-								<strong class="d-block">James Campbell</strong>
-								<span>CEO, Co-Founder</span>
-							</div>
-							<blockquote>
-								Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.
-							</blockquote>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="item">
-					<div class="testimonial-item">
-						<div  class="testimonial-item-inner">
-							<div class="testimonial-author mb-5">
-								<img src="images/person_1.jpg" alt="Image" class="img-fluid">
-								<strong class="d-block">James Campbell</strong>
-								<span>CEO, Co-Founder</span>
-							</div>
-							<blockquote>
-								Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.
-							</blockquote>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="item">
-					<div class="testimonial-item">
-						<div  class="testimonial-item-inner">
-							<div class="testimonial-author mb-5">
-								<img src="images/person_3.jpg" alt="Image" class="img-fluid">
-								<strong class="d-block">James Campbell</strong>
-								<span>CEO, Co-Founder</span>
-							</div>
-							<blockquote>
-								Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.
-							</blockquote>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="item">
-					<div class="testimonial-item">
-						<div  class="testimonial-item-inner">
-							<div class="testimonial-author mb-5">
-								<img src="images/person_4.jpg" alt="Image" class="img-fluid">
-								<strong class="d-block">James Campbell</strong>
-								<span>CEO, Co-Founder</span>
-							</div>
-							<blockquote>
-								Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.
-							</blockquote>
-
-						</div>
-					</div>
-				</div>
-
-
-				<div class="item">
-					<div class="testimonial-item">
-						<div  class="testimonial-item-inner">
-							<div class="testimonial-author mb-5">
-								<img src="images/person_5.jpg" alt="Image" class="img-fluid">
-								<strong class="d-block">James Campbell</strong>
-								<span>CEO, Co-Founder</span>
-							</div>
-							<blockquote>
-								Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.
-							</blockquote>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="item">
-					<div class="testimonial-item">
-						<div  class="testimonial-item-inner">
-							<div class="testimonial-author mb-5">
-								<img src="images/person_2.jpg" alt="Image" class="img-fluid">
-								<strong class="d-block">James Campbell</strong>
-								<span>CEO, Co-Founder</span>
-							</div>
-							<blockquote>
-								Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.
-							</blockquote>
-
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="testimonial-item">
-						<div  class="testimonial-item-inner">
-							<div class="testimonial-author mb-5">
-								<img src="images/person_3.jpg" alt="Image" class="img-fluid">
-								<strong class="d-block">James Campbell</strong>
-								<span>CEO, Co-Founder</span>
-							</div>
-							<blockquote>
-								Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.
-							</blockquote>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="item">
-					<div class="testimonial-item">
-						<div  class="testimonial-item-inner">
-							<div class="testimonial-author mb-5">
-								<img src="images/person_4.jpg" alt="Image" class="img-fluid">
-								<strong class="d-block">James Campbell</strong>
-								<span>CEO, Co-Founder</span>
-							</div>
-							<blockquote>
-								Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.
-							</blockquote>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="item">
-					<div class="testimonial-item">
-						<div  class="testimonial-item-inner">
-							<div class="testimonial-author mb-5">
-								<img src="images/person_1.jpg" alt="Image" class="img-fluid">
-								<strong class="d-block">James Campbell</strong>
-								<span>CEO, Co-Founder</span>
-							</div>
-							<blockquote>
-								Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.
-							</blockquote>
-
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-
-	<div class="section sec-news">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-lg-6">
-					<h2 class="heading">News</h2>
-				</div>
-				<div class="col-lg-6">
-					<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque.</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-4 col-md-6 mb-4">
-					<div class="post-entry-1 h-100">
-						<a href="single.html">
-							<img src="images/img_3.jpg" alt="Image"
-							class="img-fluid">
-						</a>
-						<div class="post-entry-1-contents">
-							<span class="meta d-inline-block mb-0">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
-							<h2 class="mb-3"><a href="single.html">How Awesome Stay connected</a></h2>
-
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p><a href="single.html">Read more</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 mb-4">
-					<div class="post-entry-1 h-100">
-						<a href="single.html">
-							<img src="images/img_4.jpg" alt="Image"
-							class="img-fluid">
-						</a>
-						<div class="post-entry-1-contents">
-
-							<span class="meta d-inline-block mb-0">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
-							<h2 class="mb-3"><a href="single.html">We Need Unlimitted People</a></h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p><a href="single.html">Read more</a></p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 mb-4">
-					<div class="post-entry-1 h-100">
-						<a href="single.html">
-							<img src="images/img_5.jpg" alt="Image"
-							class="img-fluid">
-						</a>
-						<div class="post-entry-1-contents">
-
-							<span class="meta d-inline-block mb-0">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
-							<h2 class="mb-3"><a href="single.html">Important of getting a notifications</a></h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p><a href="single.html">Read more</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-
-
-	<div class="site-footer bg-light">
-		<div class="container">
-
-			<div class="row justify-content-between">
-				<div class="col-lg-4">
-					<div class="widget">
-						<h3 class="line-top">About</h3>
-						<p class="mb-5">Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam. Separated they live.</p>
-
-					</div>
-					<div class="widget">
-						<h3 class="line-top">Connect with us</h3>
-						<ul class="social list-unstyled mb-5">
-							<li><a href="#"><span class="icon-facebook"></span></a></li>
-							<li><a href="#"><span class="icon-twitter"></span></a></li>
-							<li><a href="#"><span class="icon-instagram"></span></a></li>
-							<li><a href="#"><span class="icon-dribbble"></span></a></li>
-							<li><a href="#"><span class="icon-linkedin"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="row">
-						<div class="col-12">
-							<div class="widget">
-								<h3 class="line-top">Navigations</h3>
-							</div>
-						</div>
-						<div class="col-6 col-sm-6 col-md-4">
-							<div class="widget">
-								<ul class="links list-unstyled">
-									<li><a href="#">Home</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="#">Work</a></li>
-									<li><a href="#">Process</a></li>
-									<li><a href="#">About Us</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-6 col-sm-6 col-md-4">
-							<div class="widget">
-								<ul class="links list-unstyled">
-									<li><a href="#">Press</a></li>
-									<li><a href="#">Blog</a></li>
-									<li><a href="#">Contact</a></li>
-									<li><a href="#">Support</a></li>
-									<li><a href="#">Privacy</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-6 col-sm-6 col-md-4">
-							<div class="widget">
-								<ul class="links list-unstyled">
-									<li><a href="#">Privacy</a></li>
-									<li><a href="#">FAQ</a></li>
-									<li><a href="#">Careers</a></li>
-									<li><a href="#">Process</a></li>
-									<li><a href="#">About Us</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row justify-content-center text-center copyright">
-				<div class="col-md-8">
-					<p class="small text-black-50">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a></br>Distributed By <a href="https://themewagon.com/">Themewagon</a> <!-- License information: https://untree.co/license/ -->
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-
-
-	<!-- Preloader -->
-	<div id="overlayer"></div>
-	<div class="loader">
-		<div class="spinner-border" role="status">
-			<span class="visually-hidden">Loading...</span>
-		</div>
-	</div>
-
-	<script src="js/bootstrap.bundle.min.js"></script>
-	<script src="js/tiny-slider.js"></script>
-	<script src="js/aos.js"></script>
-	<script src="js/glightbox.min.js"></script>
-	<script src="js/navbar.js"></script>
-	<script src="js/counter.js"></script>
-	<script src="js/custom.js"></script>
-</body>
-</html>
+@extends('layout')
+
+@section('content')
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="home overlay target-section">
+
+        <div class="row home-content">
+
+            <div class="column large-9 mob-full home-text">
+
+                <h1>Bruna Silva</h1>
+                <h3>Front-End Developer</h3>
+            </div>
+
+        </div>
+
+    </section> <!-- end home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="about-me">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">About Me</h2>
+                </div>
+            </div>
+
+            <div class="row about-me__content" data-aos="fade-up">
+                <div class="column large-full about-me__text">
+                    <p class="lead">
+                    Nulla aspernatur nam et accusantium. Tempore delectus dignissimos aut
+                    ab commodi. Labore et cupiditate temporibus odio debitis eaque.
+                    Officia provident aut iste et dicta perferendis. Velit iure adipisci.
+                    Molestiae qui fuga rerum facilis.
+                    </p>
+
+                    <p>
+                    Reprehenderit quia id facilis nihil odit perferendis fugiat quidem voluptas.
+                    Non ratione tenetur. Quis earum quia deleniti fugit fugiat minus omnis.
+                    Iure dolore dolorum. Aspernatur quos cumque ea dolorum nemo nihil
+                    beatae magnam. Qui molestiae rem. Maxime enim provident ipsum reprehenderit tenetur. Et cupiditate
+                    repellendus. Et modi ipsum aut harum. Ratione alias.
+                    </p>
+
+                    <p>
+                    Rerum consequatur dolore quae.
+                    Qui excepturi facilis quam quae quasi. Mollitia occaecati minus voluptas veniam.
+                    Qui excepturi facilis quam quae quasi. Mollitia occaecati minus voluptas veniam. Est est occaecati dolor
+                    qui aut et eum. Aspernatur quos cumque ea dolorum nemo nihil
+                    beatae magnam. Qui molestiae rem.
+                    </p>
+
+                    <p>
+                    Maxime enim provident ipsum reprehenderit tenetur. Et cupiditate
+                    repellendus. Et modi ipsum aut harum. Ratione alias sed. Rerum
+                    consequatur dolore quae. Qui excepturi facilis quam quae quasi.
+                    Mollitia occaecati minus voluptas veniam. Est est occaecati dolor
+                    qui aut et eum. Aspernatur quos cumque ea dolorum nemo nihil
+                    beatae magnam. Qui molestiae rem. Aspernatur quos cumque ea dolorum
+                    nemo nihil. Qui molestiae rem.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row about-me__buttons">
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="#0" class="btn btn--stroke full-width">Hire Me</a>
+                </div>
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="#0" class="btn btn--primary full-width">Download CV</a>
+                </div>
+            </div>
+
+        </div> <!-- end about-me -->
+
+        <div class="about-experience">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">Work & Education</h2>
+                </div>
+            </div>
+
+            <div class="row about-experience__timeline">
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--work"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">July 2018 - Present</p>
+                                <h3 class="item-title">Awesome Studio</h3>
+                                <h5>Lead Designer</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">July 2017 - June 2018</p>
+                                <h3 class="item-title">Super Cool Agency</h3>
+                                <h5>Frontend Developer</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">March 2016 - June 2017</p>
+                                <h3 class="item-title">Epic Design Studio</h3>
+                                <h5>Frontend Developer</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--education"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">July 2011 - June 2015</p>
+                                <h3 class="item-title">University of Life</h3>
+                                <h5>Master Degree</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">July 2009 - June 2011</p>
+                                <h3 class="item-title">State Design University</h3>
+                                <h5>Bachelor Degree</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">July 2005 - June 2009</p>
+                                <h3 class="item-title">School of Hard Knocks</h3>
+                                <h5>Bachelor Degree</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end about-experience -->
+
+    </section> <!-- end s-about -->
+
+    <!-- CTA
+    ================================================== -->
+    <section class="s-cta ss-dark">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-desc">
+                    Need a great reliable web hosting?
+                </h2>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="row cta-content" data-aos="fade-up">
+            <div class="column large-full">
+                <p>
+                We highly recommend <a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a>.
+                Powerful web and Wordpress hosting. Guaranteed.
+                Starting at $2.95 per month.
+                </p>
+
+                <a href="https://www.dreamhost.com/r.cgi?287326" class="btn full-width">Get Started</a>
+            </div>
+        </div> <!-- end ad-content -->
+
+    </section> <!-- end s-cta -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Selected Works</h2>
+                <p class="section-desc">
+                    Here are some of my selected works I have done lately. Feel free to
+                    check them out.
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="masonry-wrap">
+
+            <div class="masonry">
+                <div class="grid-sizer"></div>
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-city-building.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="images/portfolio/city-building.jpg"
+                                     srcset="images/portfolio/city-building.jpg 1x, images/portfolio/city-building@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                City Building
+                            </h4>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg"
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Woodcraft
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="images/portfolio/the-beetle.jpg"
+                                     srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                The Beetle
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                <img src="images/portfolio/shutterbug.jpg"
+                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Shutterbug
+                            </h4>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                <img src="images/portfolio/lamp.jpg"
+                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Lamp
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                <img src="images/portfolio/fuji.jpg"
+                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Fuji
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+            </div> <!-- end masonry -->
+
+        </div> <!-- end masonry-wrap -->
+
+    </section> <!-- end s-work -->
+
+@endsection
