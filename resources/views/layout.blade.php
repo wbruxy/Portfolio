@@ -14,7 +14,6 @@
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="{{asset('css/base.css')}}">
-    <link rel="stylesheet" href="{{asset('css/vendor.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
     <!-- script
@@ -40,33 +39,29 @@
 
     <!-- site header
     ================================================== -->
-    <header class="s-header">
+    <header class="header">
 
         <div class="header-logo">
-            <a class="site-logo" href="{{route('index')}}">
-                <img src="images/logo.svg" alt="Homepage">
-            </a>
+            <a href="{{route('index')}}" alt="Homepage">&lsaquo;BS&rsaquo;</a>
         </div>
 
         <nav class="header-nav-wrap">
             <ul class="header-main-nav">
-                <li class="current"><a class="smoothscroll" href="#home" title="home">Menu</a></li>
-                <li><a class="smoothscroll" href="#about" title="about">Sobre</a></li>
-                <li><a class="smoothscroll" href="#works" title="works">Portfolio</a></li>
-                <li><a class="smoothscroll" href="#contact" title="contact us">Contato</a></li>
+                <li class="current"><a class="smoothscroll" href="#home" title="Menu">Menu</a></li>
+                <li><a class="smoothscroll" href="#about" title="Sobre">Sobre</a></li>
+                <li><a class="smoothscroll" href="#projects" title="Projetos">Projetos</a></li>
+                <li><a class="smoothscroll" href="#contact" title="Contato">Contato</a></li>
             </ul>
 
             <ul class="header-social">
-                <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                <li><a href="#0"><i class="fab fa-behance" aria-hidden="true"></i></a></li>
+                <li><a href="#0"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#0"><i class="fab fa-github" aria-hidden="true"></i></a></li>
             </ul>
         </nav>
 
         <a class="header-menu-toggle" href="#"><span>Menu</span></a>
 
-    </header> <!-- end s-header -->
+    </header>
 
     <!-- contact
     ================================================== -->

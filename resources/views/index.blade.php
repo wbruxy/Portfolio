@@ -27,7 +27,7 @@
 
             <div class="row heading-block" data-aos="fade-up">
                 <div class="column large-full">
-                    <h2 class="section-heading">About Me</h2>
+                    <h2 class="section-heading">Sobre mim</h2>
                 </div>
             </div>
 
@@ -65,15 +65,6 @@
                     beatae magnam. Qui molestiae rem. Aspernatur quos cumque ea dolorum
                     nemo nihil. Qui molestiae rem.
                     </p>
-                </div>
-            </div>
-
-            <div class="row about-me__buttons">
-                <div class="column large-half tab-full" data-aos="fade-up">
-                    <a href="#0" class="btn btn--stroke full-width">Hire Me</a>
-                </div>
-                <div class="column large-half tab-full" data-aos="fade-up">
-                    <a href="#0" class="btn btn--primary full-width">Download CV</a>
                 </div>
             </div>
 
@@ -186,32 +177,6 @@
 
     </section> <!-- end s-about -->
 
-    <!-- CTA
-    ================================================== -->
-    <section class="s-cta ss-dark">
-
-        <div class="row heading-block heading-block--center" data-aos="fade-up">
-            <div class="column large-full">
-                <h2 class="section-desc">
-                    Need a great reliable web hosting?
-                </h2>
-            </div>
-        </div> <!-- end heading-block -->
-
-        <div class="row cta-content" data-aos="fade-up">
-            <div class="column large-full">
-                <p>
-                We highly recommend <a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a>.
-                Powerful web and Wordpress hosting. Guaranteed.
-                Starting at $2.95 per month.
-                </p>
-
-                <a href="https://www.dreamhost.com/r.cgi?287326" class="btn full-width">Get Started</a>
-            </div>
-        </div> <!-- end ad-content -->
-
-    </section> <!-- end s-cta -->
-
 
     <!-- works
     ================================================== -->
@@ -225,7 +190,7 @@
                     check them out.
                 </p>
             </div>
-        </div> <!-- end heading-block -->
+        </div>
 
         <div class="masonry-wrap">
 
@@ -255,7 +220,7 @@
                             <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                         </div>
                     </div>
-                </div> <!-- end masonry__brick -->
+                </div>
 
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -278,7 +243,7 @@
                             <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                         </div>
                     </div>
-                </div> <!-- end masonry__brick -->
+                </div>
 
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -302,7 +267,7 @@
                             <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                         </div>
                     </div>
-                </div> <!-- end masonry__brick -->
+                </div>
 
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -325,7 +290,7 @@
                             <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                         </div>
                     </div>
-                </div> <!-- end masonry__brick -->
+                </div>
 
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -349,7 +314,7 @@
                             <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                         </div>
                     </div>
-                </div> <!-- end masonry__brick -->
+                </div>
 
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -373,11 +338,11 @@
                             <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                         </div>
                     </div>
-                </div> <!-- end masonry__brick -->
+                </div>
 
-            </div> <!-- end masonry -->
+            </div>
 
-        </div> <!-- end masonry-wrap -->
+        </div>
 
     </section> <!-- end s-work -->
 
