@@ -44,7 +44,7 @@ body {
 
 body {
   background: #000;
-  font-family: "Lora", serif;
+  font-family: "montserrat-medium", sans-serif;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
@@ -158,12 +158,12 @@ p img {
 }
 
 p.lead {
-  font-family: "Lora", serif;
+  font-family: "montserrat-medium", sans-serif;
   font-weight: 300;
   font-size: 2.4rem;
   line-height: 1.833;
   margin-bottom: 3.6rem;
-  color: #000000;
+  color: #999;
 }
 
 @media screen and (max-width:1200px) {
@@ -1327,12 +1327,13 @@ input::-moz-focus-inner {
 }
 
 .section-heading {
-  font-family: "Roboto", sans-serif;
+  font-family: "montserrat-bold", sans-serif;
+  color: #fff;
   font-weight: 600;
   font-size: 1.7rem;
   line-height: 1.176;
   text-transform: uppercase;
-  letter-spacing: .5rem;
+  letter-spacing: .1rem;
   margin-top: 0;
   padding-top: 3.2rem;
   margin-bottom: 8rem;
@@ -1415,14 +1416,14 @@ input::-moz-focus-inner {
     font-size: 1.6rem;
     padding-top: 0;
     padding-bottom: 3.2rem;
-    text-align: center;
+    text-align: left;
   }
 
   .section-heading::before {
     top: auto;
     bottom: 0;
-    left: 50%;
-    margin-left: -75px;
+    left: 0%;
+    text-align: left;
   }
 
 }
@@ -1984,50 +1985,41 @@ input::-moz-focus-inner {
  * # about
  *
  * ------------------------------------------------------------------- */
-.s-about {
+.about {
   padding-top: 15.2rem;
   padding-bottom: 16.8rem;
-  background-color: #ffffff;
+  background-color: #000;
 }
 
-.s-about .row {
+.about-2 {
+    flex: 1;
+    width: 600px;
+}
+
+.about-image {
+    flex: 1;
+    margin: auto;
+    width: 420px;
+}
+
+img {
+    height: auto;
+    width: 420px;
+}
+
+.about .row {
   max-width: 1140px;
 }
 
-.s-about > [class*="about-"] {
-  margin-bottom: 15.2rem;
-}
-
-.s-about > [class*="about-"]:last-child {
+.about > [class*="about-"]:last-child {
   margin-bottom: 0;
 }
 
-.about-me__text {
-  -webkit-columns: 2 360px;
-  -moz-columns: 2 360px;
-  columns: 2 360px;
-  column-gap: 64px;
-}
 
-.about-me__buttons {
-  margin-top: 4.8rem;
-}
-
-.about-me__buttons .column:first-child {
-  padding-right: 32px;
-}
-
-.about-me__buttons .column:last-child {
-  padding-left: 32px;
-}
 
 /* -------------------------------------------------------------------
  * ## timeline
  * ------------------------------------------------------------------- */
-.about-experience__timeline {
-  margin-top: 1.6rem;
-}
-
 .about-experience__timeline .column:first-child {
   padding-right: 40px;
 }
@@ -2101,7 +2093,6 @@ input::-moz-focus-inner {
   padding-left: 5.6rem;
   padding-bottom: .8rem;
   margin-top: 2.8rem;
-  min-height: 35.6rem;
 }
 
 .timeline .timeline__block:last-child {
@@ -2153,8 +2144,14 @@ input::-moz-focus-inner {
  * responsive:
  * about
  * ------------------------------------------------------------------- */
+@media screen and (max-width: 768px){
+    .about-2 {
+        margin: 0px;
+    }
+}
+
 @media screen and (max-width:1200px) {
-  .s-about {
+  .about {
     padding-top: 17.2rem;
     padding-bottom: 15.6rem;
   }
@@ -2209,7 +2206,7 @@ input::-moz-focus-inner {
 }
 
 @media screen and (max-width:900px) {
-  .s-about .row {
+  .about .row {
     max-width: 700px;
   }
 
@@ -2248,11 +2245,11 @@ input::-moz-focus-inner {
 }
 
 @media screen and (max-width:800px) {
-  .s-about {
+  .about {
     padding-top: 16rem;
   }
 
-  .s-about .row {
+  .about .row {
     max-width: 600px;
   }
 
@@ -2288,7 +2285,7 @@ input::-moz-focus-inner {
 }
 
 @media screen and (max-width:400px) {
-  .s-about > [class*="about-"] {
+  .about > [class*="about-"] {
     margin-bottom: 14rem;
   }
 
@@ -2315,156 +2312,6 @@ input::-moz-focus-inner {
   }
 
 }
-
-
-
-/* ===================================================================
- * # services
- *
- * ------------------------------------------------------------------- */
-.s-services {
-  padding-top: 19.2rem;
-  padding-bottom: 16rem;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-image: url(../images/services-bg.jpg);
-  color: rgba(255, 255, 255, 0.7);
-  position: relative;
-}
-
-.s-services .shadow-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: .3;
-  background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, black 80%);
-}
-
-.s-services::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #050505;
-  opacity: .85;
-}
-
-.s-services h4 {
-  font-weight: 400;
-  color: #ffffff;
-}
-
-.s-services a {
-  color: #7912B2;
-}
-
-.s-services a:hover,
-.s-services a:focus,
-.s-services a:active {
-  color: #ffffff;
-}
-
-.services-list {
-  max-width: 1240px;
-  margin-top: 8.8rem;
-  counter-reset: ctr;
-  position: relative;
-}
-
-.services-list .item-service {
-  margin-bottom: 2.4rem;
-  padding: 0 30px;
-  min-height: 44.8rem;
-}
-
-.services-list .item-service__content {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 3.6rem;
-}
-
-.services-list .item-service__content::before {
-  display: block;
-  content: counter(ctr, decimal-leading-zero) ".";
-  counter-increment: ctr;
-  margin-bottom: 4.8rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 8rem;
-  line-height: 1;
-  color: #7912B2;
-}
-
-/* -------------------------------------------------------------------
- * responsive:
- * services
- * ------------------------------------------------------------------- */
-@media screen and (max-width:1400px) {
-  .services-list .item-service {
-    padding: 0 20px;
-  }
-
-  .services-list .item-service__content::before {
-    font-size: 7.2rem;
-  }
-
-}
-
-@media screen and (max-width:1200px) {
-  .services-list {
-    max-width: 900px;
-  }
-
-  .services-list .item-service__content::before {
-    font-size: 6.8rem;
-  }
-
-}
-
-@media screen and (max-width:800px) {
-  .s-services {
-    padding-top: 16rem;
-    padding-bottom: 16rem;
-  }
-
-  .services-list {
-    max-width: 600px;
-    margin-top: 8rem;
-  }
-
-  .services-list .item-service {
-    padding: 0 16px;
-    min-height: 0;
-  }
-
-  .services-list .item-service__content::before {
-    font-size: 5.4rem;
-  }
-
-}
-
-@media screen and (max-width:600px) {
-  .services-list .item-service {
-    padding: 0 10px;
-  }
-
-}
-
-@media screen and (max-width:400px) {
-  .services-list .item-service {
-    padding: 0;
-  }
-
-  .services-list .item-service__content::before {
-    font-size: 4.8rem;
-  }
-
-}
-
 
 
 /* ===================================================================
@@ -3302,71 +3149,7 @@ footer a:visited {
 /* -------------------------------------------------------------------
  * ## go to top
  * ------------------------------------------------------------------- */
-.ss-go-top {
-  position: absolute;
-  top: -1px;
-  right: 6rem;
-  z-index: 2;
-}
 
-.ss-go-top a {
-  display: block;
-  background: rgba(255, 255, 255, 0.05);
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  border: 0 none;
-  height: 60px;
-  width: 60px;
-  line-height: 60px;
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-  transition: all .3s;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url(../images/icons/icon-arrow-up.svg);
-  background-size: 10px 16px;
-  position: relative;
-}
-
-.ss-go-top a:hover,
-.ss-go-top a:focus {
-  background-color: #7912B2;
-  color: #ffffff;
-}
-
-.ss-go-top::before {
-  content: "";
-  display: block;
-  width: 1px;
-  height: 100px;
-  background-color: rgba(255, 255, 255, 0.05);
-  position: absolute;
-  top: -115px;
-  left: 50%;
-}
-
-.ss-go-top::after {
-  content: "back to top";
-  display: block;
-  float: left;
-  width: 120px;
-  font-size: 1.2rem;
-  line-height: 30px;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-  color: rgba(255, 255, 255, 0.15);
-  transition: all 0.5s;
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-  -webkit-transform-origin: left bottom;
-  -ms-transform-origin: left bottom;
-  transform-origin: left bottom;
-  position: absolute;
-  left: calc(30px + 15px);
-  top: -165px;
-}
 
 /* -------------------------------------------------------------------
  * responsive:

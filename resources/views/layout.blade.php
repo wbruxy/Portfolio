@@ -22,11 +22,11 @@
     <script src="{{asset('js/pace.min.js')}}"></script>
 
     <!-- favicons
-    ================================================== -->
+    ==================================================
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="manifest" href="site.webmanifest"> -->
 
 </head>
 <body>
@@ -116,9 +116,9 @@
                 <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
             </div>
 
-            <div class="ss-go-top">
+            <!--<div class="go-top">
                 <a class="smoothscroll" title="Back to Top" href="#top"></a>
-            </div>
+            </div>-->
         </div>
     </footer>
 
