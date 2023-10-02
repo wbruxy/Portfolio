@@ -64,7 +64,7 @@
     </header>
 
     <!-- contact
-    ================================================== -->
+    ==================================================
     <section id="contact" class="s-contact ss-dark target-section">
 
         <div class="row heading-block" data-aos="fade-up">
@@ -103,12 +103,12 @@
                 </ul>
             </div>
 
-        </div> <!-- end contact-infos -->
+        </div>
 
-    </section> <!-- end s-contact -->
+    </section> end s-contact -->
 
     <!-- footer
-    ================================================== -->
+    ==================================================
     <footer>
         <div class="row">
             <div class="column large-full ss-copyright">
@@ -118,9 +118,9 @@
 
             <!--<div class="go-top">
                 <a class="smoothscroll" title="Back to Top" href="#top"></a>
-            </div>-->
+            </div>
         </div>
-    </footer>
+    </footer>-->
 
 
     <!-- js

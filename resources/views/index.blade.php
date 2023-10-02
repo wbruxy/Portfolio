@@ -32,193 +32,129 @@
             </div>
 
             <div class="row about-me__content" data-aos="fade-up">
-                <div class="about-2 column large-full">
-
+                <div class="column large-full about-me__text">
                     <p class="lead">
-                        Nulla aspernatur nam et accusantium. Tempore delectus dignissimos aut
-                        ab commodi. Labore et cupiditate temporibus odio debitis eaque.
-                        Officia provident aut iste et dicta perferendis. Velit iure adipisci.
+                    Nulla aspernatur nam et accusantium. Tempore delectus dignissimos aut
+                    ab commodi. Labore et cupiditate temporibus odio debitis eaque.
+                    Officia provident aut iste et dicta perferendis. Velit iure adipisci.
+                    Molestiae qui fuga rerum facilis.
                     </p>
 
-                </div>
+                    <p>
+                    Reprehenderit quia id facilis nihil odit perferendis fugiat quidem voluptas.
+                    Non ratione tenetur. Quis earum quia deleniti fugit fugiat minus omnis.
+                    Iure dolore dolorum. Aspernatur quos cumque ea dolorum nemo nihil
+                    beatae magnam. Qui molestiae rem. Maxime enim provident ipsum reprehenderit tenetur. Et cupiditate
+                    repellendus. Et modi ipsum aut harum. Ratione alias.
+                    </p>
 
-                <div class="about-image">
-                    <img src="{{asset('images/bruna.jpeg')}}" class="img-fluid" alt="">
-                </div>
+                    <p>
+                    Rerum consequatur dolore quae.
+                    Qui excepturi facilis quam quae quasi. Mollitia occaecati minus voluptas veniam.
+                    Qui excepturi facilis quam quae quasi. Mollitia occaecati minus voluptas veniam. Est est occaecati dolor
+                    qui aut et eum. Aspernatur quos cumque ea dolorum nemo nihil
+                    beatae magnam. Qui molestiae rem.
+                    </p>
 
+                    <p>
+                    Maxime enim provident ipsum reprehenderit tenetur. Et cupiditate
+                    repellendus. Et modi ipsum aut harum. Ratione alias sed. Rerum
+                    consequatur dolore quae. Qui excepturi facilis quam quae quasi.
+                    Mollitia occaecati minus voluptas veniam. Est est occaecati dolor
+                    qui aut et eum. Aspernatur quos cumque ea dolorum nemo nihil
+                    beatae magnam. Qui molestiae rem. Aspernatur quos cumque ea dolorum
+                    nemo nihil. Qui molestiae rem.
+                    </p>
+                </div>
             </div>
 
         </div>
 
-    </section> <!-- end about -->
+    </div> <!-- end about-me -->
 
 
-    <!-- works
+    <!-- projects
     ================================================== -->
-    <section id="works" class="s-works target-section">
+    <section id="projects" class="projects ss-dark target-section">
 
-        <div class="row heading-block heading-block--center" data-aos="fade-up">
+        <div class="shadow-overlay"></div>
+
+        <div class="row heading-block" data-aos="fade-up">
             <div class="column large-full">
-                <h2 class="section-heading section-heading--centerbottom">Selected Works</h2>
-                <p class="section-desc">
-                    Here are some of my selected works I have done lately. Feel free to
-                    check them out.
-                </p>
+                <h2 class="section-heading">Projetos</h2>
             </div>
         </div>
 
-        <div class="masonry-wrap">
+        <div class="row projects-list block-large-1-3 block-medium-1-2 block-tab-full">
 
-            <div class="masonry">
-                <div class="grid-sizer"></div>
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-city-building.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
-                                <img src="images/portfolio/city-building.jpg"
-                                     srcset="images/portfolio/city-building.jpg 1x, images/portfolio/city-building@2x.jpg 2x" alt="">
-                            </a>
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                City Building
-                            </h4>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-                    </div>
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Brand Identity</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
                 </div>
+            </div>
 
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
-                                <img src="images/portfolio/woodcraft.jpg"
-                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                            </a>
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Woodcraft
-                            </h4>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-                    </div>
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Illustration</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
                 </div>
+            </div>
 
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                <img src="images/portfolio/the-beetle.jpg"
-                                     srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
-                            </a>
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                The Beetle
-                            </h4>
-                            <p class="item-folio__cat">
-                                Web Development
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-                    </div>
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Web Design</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
                 </div>
+            </div>
 
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
-                                <img src="images/portfolio/shutterbug.jpg"
-                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
-                            </a>
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Shutterbug
-                            </h4>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-                    </div>
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Product Strategy</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
                 </div>
+            </div>
 
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
-                                <img src="images/portfolio/lamp.jpg"
-                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
-                            </a>
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Lamp
-                            </h4>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-                    </div>
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">UI/UX Design</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
                 </div>
+            </div>
 
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
-                                <img src="images/portfolio/fuji.jpg"
-                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
-                            </a>
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Fuji
-                            </h4>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-                    </div>
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Mobile Design</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
                 </div>
-
             </div>
 
         </div>
 
-    </section> <!-- end s-work -->
+    </section> <!-- end projects -->
 
 @endsection
