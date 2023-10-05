@@ -86,24 +86,6 @@
                 </div>
             </div>
 
-            <div class="row project-container">
-
-                <div class="col-lg-4 col-md-6 project-item">
-                    <div class="project-wrap">
-                        <img src="{{asset('images/projects/portfolio-1.jpg')}}" class="img-fluid" alt="">
-                        <div class="project-info">
-                            <h4>Projeto</h4>
-                            <p>Web</p>
-                            <div class="project-links">
-                                <a href="" data-gallery="projectGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                                <a href="" title="Mais Detalhes"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
         </div>
 
     </section>
