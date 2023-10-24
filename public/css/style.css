@@ -2367,14 +2367,14 @@ input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .projects {
-  padding-top: 19.2rem;
-  padding-bottom: 16rem;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-image: url(../images/bckg-projects.png);
-  color: rgba(255, 255, 255, 0.7);
-  position: relative;
+    padding-top: 19.2rem;
+    padding-bottom: 16rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../images/bckg-projects.png);
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
 }
 
 .projects .shadow-overlay {
@@ -2398,15 +2398,6 @@ input::-moz-focus-inner {
   opacity: .85;
 }
 
-.projects h4 {
-  font-weight: 400;
-  color: #ffffff;
-}
-
-.projects a {
-  color: #cf1767;
-}
-
 .projects a:hover,
 .projects a:focus,
 .projects a:active {
@@ -2415,39 +2406,31 @@ input::-moz-focus-inner {
 
 .projects-list {
   max-width: 1240px;
-  margin-top: 8.8rem;
+  margin-top: 1.8rem;
   counter-reset: ctr;
   position: relative;
 }
 
-.projects-list .item-service {
+.projects-list .item-project {
   margin-bottom: 2.4rem;
-  padding: 0 30px;
   min-height: 44.8rem;
 }
 
-.projects-list .item-service__content::before {
-  display: block;
-  content: counter(ctr, decimal-leading-zero) ".";
-  counter-increment: ctr;
-  margin-bottom: 4.8rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 8rem;
-  line-height: 1;
-  color: #cf1767;
+.projects-list .item-project__content {
+  padding-top: 3.6rem;
 }
+
 
 /* -------------------------------------------------------------------
  * responsive:
  * projects
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1400px) {
-  .projects-list .item-service {
+  .projects-list .item-project {
     padding: 0 20px;
   }
 
-  .projects-list .item-service__content::before {
+  .projects-list .item-project__content::before {
     font-size: 7.2rem;
   }
 
@@ -2458,7 +2441,7 @@ input::-moz-focus-inner {
     max-width: 900px;
   }
 
-  .projects-list .item-service__content::before {
+  .projects-list .item-project__content::before {
     font-size: 6.8rem;
   }
 
@@ -2475,34 +2458,35 @@ input::-moz-focus-inner {
     margin-top: 8rem;
   }
 
-  .projects-list .item-service {
+  .projects-list .item-project {
     padding: 0 16px;
     min-height: 0;
   }
 
-  .projects-list .item-service__content::before {
+  .projects-list .item-project__content::before {
     font-size: 5.4rem;
   }
 
 }
 
 @media screen and (max-width:600px) {
-  .projects-list .item-service {
+  .projects-list .item-project {
     padding: 0 10px;
   }
 
 }
 
 @media screen and (max-width:400px) {
-  .projects-list .item-service {
+  .projects-list .item-project {
     padding: 0;
   }
 
-  .projects-list .item-service__content::before {
+  .projects-list .item-project__content::before {
     font-size: 4.8rem;
   }
 
 }
+
 
 
 

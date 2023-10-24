@@ -76,103 +76,62 @@
     <!-- projects
     ================================================== -->
     <section id="projects" class="projects ss-dark target-section">
-        <div class="container">
-
-            <div class="shadow-overlay"></div>
-
-            <div class="row heading-block" data-aos="fade-up">
-                <div class="column large-full">
-                    <h2 class="section-heading">Projetos</h2>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-
-    <!--<section id="projects" class="projects ss-dark target-section">
 
         <div class="shadow-overlay"></div>
 
         <div class="row heading-block" data-aos="fade-up">
             <div class="column large-full">
-                <h2 class="section-heading">Projetos</h2>
+                <h2 class="section-heading">Sobre mim</h2>
             </div>
         </div>
 
         <div class="row projects-list block-large-1-3 block-medium-1-2 block-tab-full">
 
-            <div class="column item-service" data-aos="fade-up">
-                <div class="item-service__content">
-                    <h4 class="item-title">Brand Identity</h4>
-                    <p>
-                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et
-                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus
-                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
-                    </p>
+            <div class="column item-project" data-aos="fade-up">
+                <div class="item-project__content">
+                    <img src="{{asset('images/projects/ebrapi.png')}}" class="img-fluid" alt="">
+                    <!--<div class="project-info">
+                        <h4>Ebrapi Agroinsumos</h4>
+                        <p>Site</p>
+                    </div>-->
                 </div>
             </div>
 
-            <div class="column item-service" data-aos="fade-up">
-                <div class="item-service__content">
-                    <h4 class="item-title">Illustration</h4>
-                    <p>
-                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et
-                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus
-                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
-                    </p>
+            <div class="column item-project" data-aos="fade-up">
+                <div class="item-project__content">
+                    <img src="{{asset('images/projects/eazy.png')}}" class="img-fluid" alt="">
+                    <!--<div class="project-info">
+                        <h4>Brand Identity</h4>
+                        <p>Site</p>
+                    </div>-->
                 </div>
             </div>
 
-            <div class="column item-service" data-aos="fade-up">
-                <div class="item-service__content">
-                    <h4 class="item-title">Web Design</h4>
-                    <p>
-                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et
-                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus
-                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
-                    </p>
+            <div class="column item-project" data-aos="fade-up">
+                <div class="item-project__content">
+                    <img src="{{asset('images/projects/project.jpg')}}" class="img-fluid" alt="">
+                    <!--<div class="project-info">
+                        <h4>Brand Identity</h4>
+                        <p>Site</p>
+                    </div>-->
                 </div>
             </div>
 
-            <div class="column item-service" data-aos="fade-up">
-                <div class="item-service__content">
-                    <h4 class="item-title">Product Strategy</h4>
-                    <p>
-                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et
-                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus
-                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
-                    </p>
+            <div class="column item-project" data-aos="fade-up">
+                <div class="item-project__content">
+                    <img src="{{asset('images/projects/project.jpg')}}" class="img-fluid" alt="">
+                    <!--<div class="project-info">
+                        <h4>Brand Identity</h4>
+                        <p>Site</p>
+                    </div>-->
                 </div>
             </div>
 
-            <div class="column item-service" data-aos="fade-up">
-                <div class="item-service__content">
-                    <h4 class="item-title">UI/UX Design</h4>
-                    <p>
-                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et
-                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus
-                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
-                    </p>
-                </div>
-            </div>
+        </div> <!-- end projects-list -->
 
-            <div class="column item-service" data-aos="fade-up">
-                <div class="item-service__content">
-                    <h4 class="item-title">Mobile Design</h4>
-                    <p>
-                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et
-                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus
-                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
-                    </p>
-                </div>
-            </div>
+    </section> <!-- end s-projects -->
 
-        </div>
 
-    </section> <!-- end projects -->
+
 
 @endsection
