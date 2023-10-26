@@ -14,7 +14,6 @@
             <div class="container pt-5">
                 <div class="row g-5 pt-5">
                     <div class="col-lg-6 align-self-center home-text text-lg-start mb-lg-5">
-                        <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">AI.Tech</div>
                         <h1 class="display-4 text-white mb-4 animated slideInRight">Bruna Silva</h1>
                         <p class="text-white mb-4 animated slideInRight">Front-End Developer</p>
                     </div>
@@ -47,12 +46,12 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid bg-dark py-5">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">About Us</div>
-                    <h1 class="mb-4">We Make Your Business Smarter with Artificial Intelligence</h1>
+                    <h1 class="mb-4 text-white">We Make Your Business Smarter with Artificial Intelligence</h1>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
                         amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
                         clita duo justo et tempor eirmod magna dolore erat amet</p>
@@ -65,50 +64,64 @@
     <!-- About End -->
 
 
-    <!-- Case Start -->
-    <div class="container-fluid bg-light py-5">
-        <div class="container py-5">
-            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
-                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Case Study</div>
-                <h1 class="mb-4">Explore Our Recent AI Case Studies</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="case-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="{{asset('images/project-1.jpg')}}" alt="">
-                        <a class="case-overlay text-decoration-none" href="">
-                            <small>Robotic Automation</small>
-                            <h5 class="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
-                            </h5>
-                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
-                        </a>
-                    </div>
+    <!-- project Start -->
+    <section id="projects">
+
+        <div class="container-fluid project py-5">
+
+            <div class="container py-5">
+                <div class="col-lg-6 project-text wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Projetos</div>
+                    <h1 class="mb-4 text-white">We Make Your Business Smarter with Artificial Intelligence</h1>
                 </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="case-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="{{asset('images/project-2.jpg')}}" alt="">
-                        <a class="case-overlay text-decoration-none" href="">
-                            <small>Machine learning</small>
-                            <h5 class="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
-                            </h5>
-                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
-                        </a>
+
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                        <div class="project-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" src="{{asset('images/project-1.jpg')}}" alt="">
+                            <a class="project-overlay text-decoration-none" href="">
+                                <small>Robotic Automation</small>
+                                <h5 class="lh-base text-white mb-3">Ebrapi Agroinsumos</h5>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="case-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="{{asset('images/project-3.jpg')}}" alt="">
-                        <a class="case-overlay text-decoration-none" href="">
-                            <small>Predictive Analysis</small>
-                            <h5 class="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
-                            </h5>
-                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
-                        </a>
+
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="project-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" src="{{asset('images/project-2.jpg')}}" alt="">
+                            <a class="project-overlay text-decoration-none" href="">
+                                <small>Machine learning</small>
+                                <h5 class="lh-base text-white mb-3">EAZY</h5>
+                            </a>
+                        </div>
                     </div>
+
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="project-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" src="{{asset('images/project-3.jpg')}}" alt="">
+                            <a class="project-overlay text-decoration-none" href="">
+                                <small>Predictive Analysis</small>
+                                <h5 class="lh-base text-white mb-3">GV2 ACADEMIA</h5>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="project-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" src="{{asset('images/project-3.jpg')}}" alt="">
+                            <a class="project-overlay text-decoration-none" href="">
+                                <small>Predictive Analysis</small>
+                                <h5 class="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
+                                </h5>
+                                <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Case End -->
+    </section>
+    <!-- project End -->
 
 @endsection
