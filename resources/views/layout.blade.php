@@ -10,7 +10,7 @@
 
     <!-- favicons
     ================================================== -->
-    <link href="{{asset('images/favicon.ico')}}" rel="icon">
+    <link href="{{asset('images/code-solid.ico')}}" rel="icon">
 
     <!-- icon Font
     ================================================== -->
