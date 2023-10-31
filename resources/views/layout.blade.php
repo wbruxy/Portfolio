@@ -42,7 +42,10 @@
         <div class="container wow fadeIn" data-wow-delay="0.1s">
             <div class="copyright">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; 2023 <a class="border-bottom">Bruna Silva</a>. Todos os direitos reservados.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
                             <a href="">github</a>
                             <a href="">linkedin</a>
