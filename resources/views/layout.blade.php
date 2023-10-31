@@ -39,33 +39,15 @@
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 footer pt-5">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <h5 class="text-white mb-4">Get In Touch</h5>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope me-3"></i>brunacdasilvaa@gmail.com</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-social" href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-social" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-social" href="" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
-                </div>
-            </div>
-        </div>
         <div class="container wow fadeIn" data-wow-delay="0.1s">
             <div class="copyright">
                 <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; 2023 <a class="border-bottom">Bruna Silva</a>. Todos os direitos reservados.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
+                    <div class="col-md-6">
                         <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FAQs</a>
+                            <a href="">github</a>
+                            <a href="">linkedin</a>
+                            <a href="">instagram</a>
+                            <a href="">email</a>
                         </div>
                     </div>
                 </div>

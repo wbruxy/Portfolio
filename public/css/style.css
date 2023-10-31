@@ -16,7 +16,7 @@
 
 /********** Template CSS **********/
 :root {
-    --primary: #7912B2;
+    --primary: #573585;
     --secondary: #A831F4;
     --light: #F4F7FE;
     --dark: #1f1822;
@@ -89,6 +89,50 @@ h6,
 
 /*** Navbar ***/
 
+
+.social-media {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: #a8b2d1;
+    visibility: visible;
+    animation-fill-mode: forwards;
+}
+
+.social-media > ul {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.social-media > ul::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 20px auto 0;
+}
+
+.social-media > ul li a {
+    padding: 10px;
+    color: #fff;
+
+}
+
+  .social-media > ul li a > svg {
+    width: 20px;
+    height: 20px;
+}
+
+.social-media > ul li a > svg.feather {
+    fill: none;
+}
 
 
 
@@ -304,7 +348,7 @@ h6,
 }
 
 .subtitle span {
-    background-color: #7912B2;
+    background-color: #573585;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 1px;
@@ -313,21 +357,7 @@ h6,
 
 
 /*** About ***/
-.about-img {
-    position: relative;
-    overflow: hidden;
-}
 
-.about-img::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: url(../images/bg-about-img.png) top left no-repeat;
-    background-size: contain;
-}
 
 
 /* ===================================================================
@@ -376,7 +406,7 @@ h6,
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    background: linear-gradient(rgba(20, 24, 62, 0), var(--dark));
+    background: linear-gradient(rgba(0, 0, 0, 0) -60%, rgb(8, 2, 5));
     z-index: 1;
 }
 
@@ -464,6 +494,6 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #7912B2;
+    background-color: #573585;
     border: 3px solid #000;
 }
