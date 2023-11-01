@@ -1,32 +1,52 @@
-/******* Customized Bootstrap ********/
+@import "mixins/banner";
+@include bsBanner("");
 
-$primary: #1363C6;
-$secondary: #15ACE1;
-$light: #F4F7FE;
-$dark: #14183E;
 
-$font-family-base: 'Open Sans', sans-serif;
+// scss-docs-start import-stack
+// Configuration
+@import "functions";
+@import "variables";
+@import "variables-dark";
+@import "maps";
+@import "mixins";
+@import "utilities";
 
-$headings-font-family: 'Ubuntu', sans-serif;
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+@import "placeholders";
 
-$body-color: #555555;
+// Helpers
+@import "helpers";
 
-$headings-color: $dark;
-
-$headings-font-weight: 700;
-
-$display-font-weight: 700;
-
-$enable-responsive-font-sizes: true;
-
-$border-radius: 10px;
-
-$border-radius-sm: $border-radius;
-
-$border-radius-lg: $border-radius;
-
-$link-decoration: none;
-
-$enable-negative-margins: true;
-
-@import "bootstrap/scss/bootstrap";
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack
