@@ -89,8 +89,8 @@
                                     </a>
                                 </div>
                             </div>
-                            <p class="card-text mt-3">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, lorem sit. Sanctus clita duo justo et tempor.</p>
-                            <p class="card-subtitle">Linguagem de programação usada</p>
+                            <p class="card-text mt-3">Site institucional do meu Trabalho de Conclusão de Curso.</p>
+                            <p class="card-subtitle">HTML · CSS · JavaScript</p>
                         </div>
                     </div>
 
@@ -109,8 +109,8 @@
                                     </a>
                                 </div>
                             </div>
-                            <p class="card-text mt-3">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, lorem sit. Sanctus clita duo justo et tempor.</p>
-                            <p class="card-subtitle">Linguagem de programação usada</p>
+                            <p class="card-text mt-3">Site institucional de uma academia real, desenvolvido para o Trabalho de Conclusão de Curso.</p>
+                            <p class="card-subtitle">HTML · CSS · JavaScript</p>
                         </div>
                     </div>
 
@@ -149,8 +149,8 @@
                                     </a>
                                 </div>
                             </div>
-                            <p class="card-text mt-3">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, lorem sit. Sanctus clita duo justo et tempor.</p>
-                            <p class="card-subtitle">Linguagem de programação usada</p>
+                            <p class="card-text mt-3">Desenvolvimento de um site completo com painel administrativo integrado para uma empresa de vendas de agronegócio.</p>
+                            <p class="card-subtitle">Laravel · CSS · SCSS · JavaScript</p>
                         </div>
                     </div>
 
