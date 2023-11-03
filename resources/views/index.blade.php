@@ -20,7 +20,7 @@
                 <div class="row g-5 pt-5">
                     <div class="col-lg-6 align-self-center home-text text-lg-start mb-lg-5">
                         <h1 class="display-4 text-white animated slideInRight">Bruna Silva</h1>
-                        <p class="home-disc text-white animated slideInRight">Desenvolvedora Front-End</p>
+                        <p class="home-disc animated slideInRight">Desenvolvedora Front-End</p>
                     </div>
                 </div>
             </div>

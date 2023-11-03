@@ -128,10 +128,13 @@ h6,
 }
 
 .home-disc {
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 1.3rem;
+    color: #fff;
 }
+
+
 
 
 /* -------------------------------------------------------------------
