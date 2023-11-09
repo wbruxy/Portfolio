@@ -8,10 +8,6 @@
     </div>
 
 
-    <!-- Navbar Start -->
-
-    <!-- Navbar End -->
-
 
     <!-- home Start -->
     <section id="home" class="home overlay">
@@ -30,7 +26,7 @@
 
 
     <!-- about -->
-    <div class="container-fluid bg-dark py-5">
+    <div class="container-fluid bg-dark py-5" id="about">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">

@@ -6,8 +6,21 @@
     new WOW().init();
 
 
-    // Sticky Navbar
+    //navbar
+	window.onscroll = function() {scrollFunction()};
 
+	function scrollFunction() {
+	  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+	    // document.getElementById("navbar").style.background = "black";
+
+	    var element = document.getElementById("navbar");
+   		element.classList.add("scroll");
+	  } else {
+	  	var element = document.getElementById("navbar");
+   		element.classList.remove("scroll");
+	    // document.getElementById("navbar").style.background = "transparent";
+	  }
+	}
 
 
     // Facts counter
