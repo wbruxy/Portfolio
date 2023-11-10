@@ -511,8 +511,6 @@ h6,
 
 .card {
     background: linear-gradient(135deg, #000, rgba(255, 255, 255, 0));
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
     box-shadow: var(--color-shadow--card);
     display: flex;
     flex-direction: column;
