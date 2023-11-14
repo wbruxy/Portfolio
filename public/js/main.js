@@ -7,20 +7,21 @@
 
 
     //navbar
-	window.onscroll = function() {scrollFunction()};
-
-	function scrollFunction() {
-	  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-	    // document.getElementById("navbar").style.background = "black";
-
-	    var element = document.getElementById("navbar");
-   		element.classList.add("scroll");
-	  } else {
-	  	var element = document.getElementById("navbar");
-   		element.classList.remove("scroll");
-	    // document.getElementById("navbar").style.background = "transparent";
-	  }
-	}
+	$(window).scroll(function () {
+        if ($(window).width() < 992) {
+            if ($(this).scrollTop() > 45) {
+                $('.fixed-top').addClass('bg-dark shadow');
+            } else {
+                $('.fixed-top').removeClass('bg-dark shadow');
+            }
+        } else {
+            if ($(this).scrollTop() > 45) {
+                $('.fixed-top').addClass('bg-dark shadow').css('top', 0);
+            } else {
+                $('.fixed-top').removeClass('bg-dark shadow').css('top', 0);
+            }
+        }
+    });
 
 
     // Facts counter
