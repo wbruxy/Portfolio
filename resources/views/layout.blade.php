@@ -50,20 +50,9 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a class="nav-item nav-link active" href="#home">Menu</a>
-                    <a class="nav-item nav-link active" href="#about">About</a>
+                    <a class="nav-item nav-link active" href="#about">Sobre</a>
                     <a class="nav-item nav-link active" href="#projects">Projetos</a>
-                    <a class="nav-item nav-link active" href="#contato">Contato</a>
-                </div>
-                <div class="d-none d-lg-flex ms-2">
-                    <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
-                        <small class="fab fa-facebook-f text-primary"></small>
-                    </a>
-                    <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
-                        <small class="fab fa-twitter text-primary"></small>
-                    </a>
-                    <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
-                        <small class="fab fa-linkedin-in text-primary"></small>
-                    </a>
+                    <a class="nav-item nav-link active" href="#contact">Contato</a>
                 </div>
             </div>
         </nav>
