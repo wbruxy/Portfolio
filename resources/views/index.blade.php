@@ -125,7 +125,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <p class="card-text mt-3">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, lorem sit. Sanctus clita duo justo et tempor.</p>
+                            <p class="card-text mt-3">Landing Page apenas com HTML e CSS a partir do Figma | OneBitCode.</p>
                             <p class="card-subtitle">HTML · CSS</p>
                         </div>
                     </div>

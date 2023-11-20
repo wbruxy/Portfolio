@@ -69,10 +69,10 @@
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
-                            <a href="https://github.com/wbruxy">github</a>
-                            <a href="">linkedin</a>
-                            <a href="https://www.instagram.com/wbruxy/">instagram</a>
-                            <a href="">email</a>
+                            <a href="https://github.com/wbruxy" alt="GitHub" target="_blank">github</a>
+                            <a href="" alt="Linkedin" target="_blank">linkedin</a>
+                            <a href="https://www.instagram.com/wbruxy/" alt="Instagram" target="_blank">instagram</a>
+                            <a href="mailto:brunacdasilvaa@gmail.com" alt="Email">email</a>
                         </div>
                     </div>
                 </div>
