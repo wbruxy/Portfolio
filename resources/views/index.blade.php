@@ -31,17 +31,11 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="text-primary subtitle mb-3"><span>Sobre mim</span></div>
-                    <h1 class="mb-4 text-white">Lorem ipsum dolor sit amet</h1>
-                    <p class="mb-4" style="font-size: 1.3rem">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                        clita duo justo et tempor eirmod magna dolore erat amet
+                    <h1 class="mb-4 text-white">Olá! Eu sou a Bruna Silva, Desenvolvedora Front-End.</h1>
+                    <p class="mb-4" style="font-size: 1.3rem">Meu interesse pela tecnologia se despertou na minha infância, graças aos Videogames! Eventualmente me formei em Técnico de Informática, onde se deu início a minha experiência profissional como programadora, desenvolvendo sites em HTML, PHP e CSS.
                     </p>
-                    <p class="mb-4" style="font-size: 1.3rem;">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no
-                        labore lorem sit. Sanctus clita duo justo et tempor.
-                        Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no
-                        labore lorem sit. Sanctus clita duo justo et tempor.
-                    </p>
-
+                    <p class="mb-4" style="font-size: 1.3rem;">Após aprender o básico das linguagens de programaçãos eu pude aprimorar minhas habilidades e experiências com cursos e projetos. Ao longo do tempo, aprendi a utilizar o versionamento de códigos Git e consequentemente publicando meus projetos em sua plataforma GitHub.</p>
+                    <p class="mb-4" style="font-size: 1.3rem;">Atualmente estou estudando JavaScript e TypeScript do básico ao avançado pela Udemy.</p>
                 </div>
 
                 <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
