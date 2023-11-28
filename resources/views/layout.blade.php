@@ -39,23 +39,25 @@
 
     <!-- Navbar Start -->
     <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
-        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-                <h1 class="display-5 text-primary m-0">BS</h1>
-            </a>
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
-                data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a class="nav-item nav-link active" href="#home">Menu</a>
-                    <a class="nav-item nav-link active" href="#about">Sobre</a>
-                    <a class="nav-item nav-link active" href="#projects">Projetos</a>
-                    <a class="nav-item nav-link active" href="#contact">Contato</a>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light wow fadeIn" data-wow-delay="0.1s">
+                <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                    <h1 class="display-5 text-primary m-0">BS</h1>
+                </a>
+                <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto p-4 p-lg-0">
+                        <a class="nav-item nav-link active" href="#home">Menu</a>
+                        <a class="nav-item nav-link active" href="#about">Sobre</a>
+                        <a class="nav-item nav-link active" href="#projects">Projetos</a>
+                        <a class="nav-item nav-link active" href="#contact">Contato</a>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </div>
     <!-- Navbar End -->
 
