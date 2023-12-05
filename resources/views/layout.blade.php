@@ -41,8 +41,8 @@
     <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light wow fadeIn" data-wow-delay="0.1s">
-                <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-                    <h1 class="display-5 text-primary m-0">BS</h1>
+                <a href="{{route('index')}}" class="navbar-brand ms-4 ms-lg-0">
+                    <h1 class="display-5 text-primary text-white m-0">BS</h1>
                 </a>
                 <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
