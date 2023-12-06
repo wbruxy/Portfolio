@@ -44,7 +44,7 @@
                 <a href="{{route('index')}}" class="navbar-brand ms-4 ms-lg-0">
                     <h1 class="display-5 text-primary text-white m-0">BS</h1>
                 </a>
-                <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
