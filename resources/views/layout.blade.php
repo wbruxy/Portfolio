@@ -41,15 +41,15 @@
     <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light wow fadeIn" data-wow-delay="0.1s">
-                <a href="{{route('index')}}" class="navbar-brand ms-4 ms-lg-0">
-                    <h1 class="display-5 text-primary text-white m-0">BS</h1>
+                <a href="{{route('index')}}" class="navbar-brand">
+                    <h1 class="text-primary text-white">BS</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <div class="navbar-nav ms-auto p-lg-0">
                         <a class="nav-item nav-link active" href="#home">Menu</a>
                         <a class="nav-item nav-link active" href="#about">Sobre</a>
                         <a class="nav-item nav-link active" href="#projects">Projetos</a>

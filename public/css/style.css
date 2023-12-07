@@ -97,6 +97,16 @@ h6,
     border-bottom: 1px solid rgba(53, 94, 252, .07);
 }
 
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
 .navbar-toggler {
   border: 0;
   padding: 0;
