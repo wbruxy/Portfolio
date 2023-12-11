@@ -151,4 +151,20 @@
     </section>
     <!-- project End -->
 
+
+    <!-- Newsletter Start -->
+    <div id="contact" class="container-fluid bg-primary newsletter py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
+                    <div class="text-primary subtitle mb-3"><span>Fale comigo!</span></div>
+                    <h1 class="text-white mb-4">Let's subscribe the newsletter</h1>
+                    <small class="text-white-50">Diam sed sed dolor stet amet eirmod</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter End -->
+
+
 @endsection
