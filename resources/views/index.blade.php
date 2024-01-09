@@ -34,7 +34,7 @@
                     <h1 class="mb-4 text-white">Olá! Eu sou a Bruna Silva, Desenvolvedora Front-End.</h1>
                     <p class="mb-4" style="font-size: 1.3rem">Meu interesse pela tecnologia se despertou na minha infância, graças aos Videogames! Eventualmente me formei em Técnico de Informática, onde se deu início a minha experiência profissional como programadora, desenvolvendo sites em HTML, PHP e CSS.
                     </p>
-                    <p class="mb-4" style="font-size: 1.3rem;">Após aprender o básico das linguagens de programação eu pude aprimorar minhas habilidades e experiências com cursos e projetos. Ao longo do tempo, aprendi a utilizar o versionamento de códigos Git e consequentemente publicando meus projetos em sua plataforma GitHub.</p>
+                    <p class="mb-4" style="font-size: 1.3rem;">Após aprender o básico das linguagens de programação eu pude aprimorar minhas habilidades e adquirir experiências com cursos e projetos. Ao longo do tempo, aprendi a utilizar o versionamento de códigos Git e consequentemente publicando meus projetos em sua plataforma GitHub.</p>
                     <p class="mb-4" style="font-size: 1.3rem;">Atualmente estou estudando JavaScript e TypeScript do básico ao avançado pela Udemy.</p>
                 </div>
 
@@ -79,7 +79,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <p class="card-text mt-3">Site institucional do meu Trabalho de Conclusão de Curso.</p>
+                            <p class="card-text mt-3">Site institucional desenvolvido para o Trabalho de Conclusão de Curso.</p>
                             <p class="card-subtitle">HTML · CSS · JavaScript</p>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                 <div class="py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
                     <div class="text-primary subtitle mb-3"><span>Fale comigo!</span></div>
                     <h1 class="text-white mb-4">Se interessou pelo meu trabalho, deseja discutir oportunidades de colaboração ou simplesmente deseja trocar ideias? Não hesite em entrar em contato! Estou sempre aberta a novas conexões e oportunidades emocionantes.</h1>
-                    <a class="btn btn-primary px-4" href="">Diga Olá</a>
+                    <a class="btn btn-primary px-4" href="mailto:brunacdasilvaa@gmail.com" alt="Email">Diga Olá</a>
                 </div>
             </div>
         </div>

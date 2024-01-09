@@ -36,6 +36,7 @@
   background-clip: border-box;
   border: var(--#{$prefix}card-border-width) solid var(--#{$prefix}card-border-color);
   @include box-shadow(var(--#{$prefix}card-box-shadow));
+  @include border-radius(var(--#{$prefix}card-border-radius));
 
   > hr {
     margin-right: 0;
